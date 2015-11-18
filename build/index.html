@@ -18,6 +18,8 @@
     <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="css/zoom.css" rel="stylesheet">
+    
     <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -51,7 +53,16 @@
 
         <div id="js-parallax-window" class="parallax-window">
             <div class="parallax-static-content">
-                <b>Parallax Window</b>
+                <h1>Студия художественной ковки <br> <span>Frrearius</span></h1>
+                <br>
+                <h2>Ручная горячай ковка,</h2>
+                <h2>Бесплатные выезд на замер,</h2>
+                <h2>Дизайн в подарок</h2>
+                <br>
+                <br>
+                <br>
+        
+                <button type="button" class="btn btn-danger btn-lg">Заказ выезда специалиста</button>
             </div>
             <div id="js-parallax-background" class="parallax-background"></div>
         </div>
@@ -63,7 +74,18 @@
     <div class="cards">
         <div class="card">
             <div class="card-image">
-                <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png" alt="">
+                <img src="img/marsh.jpg" data-action="zoom" alt="марш">
+            </div>
+            <div class="card-header">
+                First Card
+            </div>
+            <div class="card-copy">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, officiis sunt neque facilis culpa molestiae necessitatibus delectus veniam provident.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-image">
+                <img src="img/marsh2.jpeg" data-action="zoom" alt="">
             </div>
             <div class="card-header">
                 First Card
@@ -73,21 +95,10 @@
             </div>
         </div>
     
-        <div class="card">
-            <div class="card-image">
-                <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains-4.png" alt="">
-            </div>
-            <div class="card-header">
-                Another Card
-            </div>
-            <div class="card-copy">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, officiis sunt neque facilis culpa molestiae necessitatibus delectus veniam provident.</p>
-            </div>
-        </div>
     
         <div class="card">
             <div class="card-image">
-                <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains-3.png" alt="">
+                <img src="img/balcon.jpg" data-action="zoom" alt="">
             </div>
             <div class="card-header">
                 The Last Card
@@ -98,6 +109,35 @@
         </div>
     </div>
 </section>
+
+    <div class="hero section_4">
+        <div class="hero-inner">
+    
+            <div class="hero-copy">
+               <h2>Как мы производим изделия из металла <br> высочайшего качества?</h2>
+    
+                <ul>
+    
+                    <li class="block"><img src="img/1.png" alt="" data-action="zoom"> </li>
+                    <li class="block"><img src="img/1.png" alt="" data-action="zoom"> </li>
+                    <li class="block"><img src="img/1.png" alt="" data-action="zoom"> </li>
+                    <li class="block"><img src="img/1.png" alt="" data-action="zoom"> </li>
+    
+                </ul>
+                <ul>
+    
+                    <li class="block"><img src="img/1.png" alt="" data-action="zoom"> </li>
+                    <li class="block"><img src="img/1.png" alt="" data-action="zoom"> </li>
+                    <li class="block"><img src="img/1.png" alt="" data-action="zoom"> </li>
+                    <li class="block"><img src="img/1.png" alt="" data-action="zoom"> </li>
+                </ul>
+    
+    
+    
+            </div>
+        </div>
+    </div>
+
 <section>
     <div class="side-image">
         <div class="images-wrapper"></div>
@@ -148,14 +188,7 @@
         </a>
     </div>
 </section>
-<section>
-    <div id="js-parallax-window" class="parallax-window">
-        <div class="parallax-static-content">
-            <b>Parallax Window</b>
-        </div>
-        <div id="js-parallax-background" class="parallax-background"></div>
-    </div>
-</section>
+
 
 <section>
     <head>
@@ -224,6 +257,8 @@
 <script src="libs/waypoints/waypoints.min.js"></script>
 <script src="libs/animate/animate-css.js"></script>
 <script src="libs/plugins-scroll/plugins-scroll.js"></script>
+
+<script src="js/zoom.js"></script>
 
 <script src="js/common.js"></script>
 </body>

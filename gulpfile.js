@@ -34,7 +34,7 @@ var path = {
 		html: 'src/**/*.html',
 		js: 'src/js/**/*.js',
 		style: 'src/sass/**/*.sass',
-		module: 'modules/**/*.scss',
+		module: 'src/modules/**/*.scss',
 		styles: 'src/sass/**/*.scss',
 		img: 'src/img/**/*.*',
 		fonts: 'src/fonts/**/*.*'

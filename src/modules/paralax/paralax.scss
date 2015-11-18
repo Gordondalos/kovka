@@ -1,5 +1,5 @@
-$parallax-window-height: 500px;
-$parallax-background-height: $parallax-window-height*2;
+$parallax-window-height: 600px;
+$parallax-background-height: $parallax-window-height*1.6;
 
 .parallax-window {
 	max-height: $parallax-window-height;
@@ -12,15 +12,15 @@ $parallax-background-height: $parallax-window-height*2;
 
 .parallax-static-content {
 	color: #9A9A8A;
-	padding: 8em 0;
+	padding: 3em 0;
 	position: relative;
 	z-index: 9;
 }
 
 .parallax-background {
 	background: url("../img/fire.jpg") repeat;
-	background-position-y: -160px;
-	background-position-x: -100px;
+	background-position-y: -100px;
+	//background-position-x: -100px;
 	background-size: cover;
 	height: $parallax-background-height;
 	left: 0;

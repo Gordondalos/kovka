@@ -6,7 +6,11 @@ header.navigation {
 	$large-screen: em(860) !default;
 	$navigation-padding: 1em;
 	$navigation-background: $dark-gray;
-	$navigation-color: transparentize(white, 0.3);
+	//$navigation-color: transparentize(white, 0.3);
+	$navigation-color: white;
+
+
+
 	$navigation-color-hover: white;
 	$navigation-height: 60px;
 	$navigation-nav-button-background: $action-color;
@@ -19,7 +23,16 @@ header.navigation {
 	$navigation-submenu-width: 12em;
 	$horizontal-bar-mode: $large-screen;
 
-	background-color: $navigation-background;
+	//background-color: $navigation-background;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2b000c+0,660217+44,0f0001+100 */
+	background: #2b000c; /* Old browsers */
+	background: -moz-linear-gradient(top,  #2b000c 0%, #660217 44%, #0f0001 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #2b000c 0%,#660217 44%,#0f0001 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #2b000c 0%,#660217 44%,#0f0001 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b000c', endColorstr='#0f0001',GradientType=0 ); /* IE6-9 */
+
+
+
 	border-bottom: 1px solid darken($navigation-background, 10);
 	min-height: $navigation-height;
 	width: 100%;
