@@ -13,7 +13,8 @@ $(document).ready(function() {
 			}
 		});
 
-		$( ".opener" ).click(function() {
+		$( ".opener" ).click(function(e) {
+			e.preventDefault();
 			$( "#dialog" ).dialog( "open" );
 		});
 	});
