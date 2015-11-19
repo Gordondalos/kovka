@@ -36,6 +36,7 @@ header.navigation {
 	border-bottom: 1px solid darken($navigation-background, 10);
 	min-height: $navigation-height;
 	width: 100%;
+	position: fixed;
 	z-index: 999;
 
 	.navigation-wrapper {

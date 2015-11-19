@@ -1,12 +1,16 @@
+@import "../../___vendor/vendor";
 .section_5{
 	padding: 20px 0;
-}
+	margin: 50px 0;
+	@include outer-container;
 
+}
 
 .section_5 h2{
 
 	color: black;
 	text-align: center;
+	font-family: $font;
 	padding: 0 0 50px 0;
 }
 

@@ -84,7 +84,12 @@ gulp.task('style:build', function () {
 			sourceMap: true,
 			errLogToConsole: true
 		}))
-		.pipe(prefixer())
+		.pipe(prefixer(
+			{
+				browsers: ['last 15 versions'],
+				cascade: false
+			}
+		))
 		.pipe(cssmin())
 		.pipe(sourcemaps.write())
 		.pipe(gulp.dest(path.build.css))
@@ -98,7 +103,12 @@ gulp.task('styles:build', function () {
 			sourceMap: true,
 			errLogToConsole: true
 		}))
-		.pipe(prefixer())
+		.pipe(prefixer(
+			{
+				browsers: ['last 15 versions'],
+				cascade: false
+			}
+		))
 		.pipe(cssmin())
 		.pipe(sourcemaps.write())
 		.pipe(gulp.dest(path.build.css))
@@ -113,7 +123,12 @@ gulp.task('module:build', function () {
 			sourceMap: true,
 			errLogToConsole: true
 		}))
-		.pipe(prefixer())
+		.pipe(prefixer(
+			{
+				browsers: ['last 15 versions'],
+				cascade: false
+			}
+		))
 		.pipe(cssmin())
 		.pipe(sourcemaps.write())
 		.pipe(gulp.dest(path.build.css))
