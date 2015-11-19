@@ -24,7 +24,8 @@ var path = {
 	},
 	src: {
 		html: 'src/*.html',
-		js: 'src/js/common.js',
+		//js: 'src/js/common.js',
+		js: 'src/js/**/*.js',
 		style: 'src/sass/main.sass',
 		module: 'src/sass/main.sass',
 		img: 'src/img/**/*.*',
