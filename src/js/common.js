@@ -1,4 +1,23 @@
 $(document).ready(function() {
+// это попап
+	$(function() {
+		$( "#dialog" ).dialog({
+			autoOpen: false,
+			show: {
+				effect: "blind",
+				duration: 1000
+			},
+			hide: {
+				effect: "explode",
+				duration: 1000
+			}
+		});
+
+		$( ".opener" ).click(function() {
+			$( "#dialog" ).dialog( "open" );
+		});
+	});
+
 
 	//Цели для Яндекс.Метрики и Google Analytics
 	$(".count_element").on("click", (function() {
