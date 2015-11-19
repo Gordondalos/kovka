@@ -115,11 +115,17 @@ header.navigation {
 	// The nav items
 
 	ul li.nav-link {
-		background: $navigation-background;
+		//background-color: $navigation-background;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2b000c+0,660217+44,0f0001+100 */
+		background: #2b000c; /* Old browsers */
+		background: -moz-linear-gradient(top,  #2b000c 0%, #660217 44%, #0f0001 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  #2b000c 0%,#660217 44%,#0f0001 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  #2b000c 0%,#660217 44%,#0f0001 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b000c', endColorstr='#0f0001',GradientType=0 ); /* IE6-9 */
 		display: block;
 		line-height: $navigation-height;
 		overflow: hidden;
-		padding-right: 0.8em;
+		padding-right: 1em;
 		text-align: right;
 		width: 100%;
 		z-index: 9999;
@@ -271,7 +277,13 @@ header.navigation {
 	// Elements on the far right
 
 	.navigation-tools {
-		background: #505050;
+		//background-color: $navigation-background;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2b000c+0,660217+44,0f0001+100 */
+		background: #2b000c; /* Old browsers */
+		background: -moz-linear-gradient(top,  #2b000c 0%, #660217 44%, #0f0001 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  #2b000c 0%,#660217 44%,#0f0001 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  #2b000c 0%,#660217 44%,#0f0001 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b000c', endColorstr='#0f0001',GradientType=0 ); /* IE6-9 */
 		clear: both;
 		display: block;
 		height: $navigation-height;
@@ -281,6 +293,7 @@ header.navigation {
 			clear: none;
 			float: right;
 		}
+
 	}
 
 	// Search bar
