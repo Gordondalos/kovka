@@ -5,7 +5,7 @@ $(document).ready(function () {
     var is_safari = navigator.userAgent.indexOf("Safari") > -1;
     var is_opera = navigator.userAgent.toLowerCase().indexOf("op") > -1;
 
-    $("a#kompany").click(function () {
+    $("a#1").click(function () {
         var elementClick = $(this).attr("href");
         var destination = $('.'+elementClick).offset().top-50;
         if (is_safari) {
@@ -16,7 +16,7 @@ $(document).ready(function () {
         return false;
     });
 
-    $("a#foto").click(function () {
+    $("a#2").click(function () {
         var elementClick = $(this).attr("href");
         var destination = $('.'+elementClick).offset().top-50;
 
@@ -29,7 +29,7 @@ $(document).ready(function () {
         return false;
     });
 
-    $("a#raboti").click(function () {
+    $("a#3").click(function () {
         var elementClick = $(this).attr("href");
         var destination = $('.'+elementClick).offset().top-50;
         if (is_safari) {
@@ -40,7 +40,7 @@ $(document).ready(function () {
         return false;
     });
 
-    $("a#vid").click(function () {
+    $("a#4").click(function () {
         var elementClick = $(this).attr("href");
         var destination = $('.'+elementClick).offset().top-50;
         if (is_safari) {
@@ -51,7 +51,7 @@ $(document).ready(function () {
         return false;
     });
 
-    $("a#tech").click(function () {
+    $("a#5").click(function () {
         var elementClick = $(this).attr("href");
         var destination = $('.'+elementClick).offset().top-1200;
         if (is_safari) {
@@ -62,7 +62,29 @@ $(document).ready(function () {
         return false;
     });
 
-    $("a#contact").click(function () {
+    $("a#6").click(function () {
+        var elementClick = $(this).attr("href");
+        var destination = $('.'+elementClick).offset().top-50;
+        if (is_safari) {
+            $('body').animate({ scrollTop: destination }, 3000); //1100 - ñêîðîñòü
+        } else {
+            $('html').animate({ scrollTop: destination }, 3000);
+        }
+        return false;
+    });
+
+    $("a#7").click(function () {
+        var elementClick = $(this).attr("href");
+        var destination = $('.'+elementClick).offset().top-50;
+        if (is_safari) {
+            $('body').animate({ scrollTop: destination }, 3000); //1100 - ñêîðîñòü
+        } else {
+            $('html').animate({ scrollTop: destination }, 3000);
+        }
+        return false;
+    });
+
+    $("a#8").click(function () {
         var elementClick = $(this).attr("href");
         var destination = $('.'+elementClick).offset().top-50;
         if (is_safari) {
